@@ -34,11 +34,11 @@ CONFIG = {
     "max_chunk_tokens": 3000,
     
     # Paths
-    "raw_pdfs_dir": os.path.join(BASE_DIR, "data_pipeline/raw_downloads/pdfs"),
-    "raw_repos_dir": os.path.join(BASE_DIR, "data_pipeline/raw_downloads/repos"),
-    "raw_web_dir": os.path.join(BASE_DIR, "data_pipeline/raw_downloads/web"),
-    "extracted_dir": os.path.join(BASE_DIR, "data_pipeline/extracted"),
-    "chunks_dir": os.path.join(BASE_DIR, "data_pipeline/chunks"),
-    "generated_dir": os.path.join(BASE_DIR, "data_pipeline/generated_pairs"),
-    "final_dir": os.path.join(BASE_DIR, "data_pipeline/final"),
+    "raw_pdfs_dir": os.path.join(BASE_DIR, "data/raw_downloads/pdfs"),
+    "raw_repos_dir": os.path.join(BASE_DIR, "data/raw_downloads/repos"),
+    "raw_web_dir": os.path.join(BASE_DIR, "data/raw_downloads/web"),
+    "extracted_dir": os.path.join(BASE_DIR, "data/extracted"),
+    "chunks_dir": os.path.join(BASE_DIR, "data/chunks"),
+    "generated_dir": os.path.join(BASE_DIR, "data/generated_pairs"),
+    "final_dir": os.path.join(BASE_DIR, "data/final"),
 }

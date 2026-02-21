@@ -1,1 +1,4 @@
 unsloth_compiled_cache/
+data/
+
+__pycache__
