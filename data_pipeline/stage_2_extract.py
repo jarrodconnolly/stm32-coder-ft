@@ -34,14 +34,20 @@ def stage_2_extract(args):
     for repo_dir in Path(CONFIG["raw_repos_dir"]).glob("*"):
         if not repo_dir.is_dir():
             continue
+        repo_name = repo_dir.name
+        repo_config = CONFIG["repos"].get(repo_name, {})
+        include_folders = repo_config.get("include_folders")
         out_path = Path(CONFIG["extracted_dir"]) / f"{repo_dir.name}_code.md"
         if out_path.exists() and not args.force:
             continue
         print(f"Extracting code from {repo_dir.name}...")
         content = []
         for file in repo_dir.rglob("*.[chmd]"):  # .c .h .md
-            if any(ex in str(file) for ex in [".git", "__pycache__", "Utilities", "Projects"]):
+            if any(ex in str(file) for ex in [".git", "__pycache__"]):
                 continue
+            if include_folders:
+                if not any(str(file).startswith(str(repo_dir / folder)) for folder in include_folders):
+                    continue
             try:
                 rel = file.relative_to(repo_dir)
                 content.append(f"### File: {rel}\n```{file.suffix[1:]}\n{file.read_text(encoding='utf-8', errors='ignore')}\n```\n")

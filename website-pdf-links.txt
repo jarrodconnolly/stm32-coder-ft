@@ -1,0 +1,82 @@
+Scraped from here:
+https://www.st.com/en/microcontrollers-microprocessors/stm32f405rg.html#documentation
+
+let f = document.getElementsByClassName("file-type--pdf")
+for(a of f) { console.log(a.attributes["data-file-name"].nodeValue + " || " + a.href) }
+
+Arm® Cortex®-M4 32b MCU+FPU, 210DMIPS, up to 1MB Flash/192+4KB RAM, USB OTG HS/FS, Ethernet, 17 TIMs, 3 ADCs, 15 comm. interfaces, and camera || https://www.st.com/resource/en/datasheet/stm32f405rg.pdf
+VM1629:1 How to use USART protocol in bootloader on STM32 MCUs || https://www.st.com/resource/en/application_note/an3155-how-to-use-usart-protocol-in-bootloader-on-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Introduction to debug toolbox for STM32 MCUs || https://www.st.com/resource/en/application_note/an4989-introduction-to-debug-toolbox-for-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Guidelines for thermal management on STM32 MCUs and MPUs || https://www.st.com/resource/en/application_note/an5036-guidelines-for-thermal-management-on-stm32-mcus-and-mpus-stmicroelectronics.pdf
+VM1629:1 Getting started with USART automatic baud rater detection for STM32 MCUs || https://www.st.com/resource/en/application_note/an4908-getting-started-with-usart-automatic-baud-rater-detection-for-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Introduction to system memory boot mode on STM32 MCUs || https://www.st.com/resource/en/application_note/an2606-introduction-to-system-memory-boot-mode-on-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Soldering recommendations and package information for lead-free ECOPACK2 MCUs and MPUs || https://www.st.com/resource/en/application_note/an2639-soldering-recommendations-and-package-information-for-leadfree-ecopack2-mcus-and-mpus-stmicroelectronics.pdf
+VM1629:1 Guidelines for oscillator design on STM8AF/AL/S and STM32 MCUs/MPUs || https://www.st.com/resource/en/application_note/an2867-guidelines-for-oscillator-design-on-stm8afals-and-stm32-mcusmpus-stmicroelectronics.pdf
+VM1629:1 How to extend the DAC performance on STM32 MCUs || https://www.st.com/resource/en/application_note/an4566-how-to-extend-the-dac-performance-on-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 How to use PWM shutdown for motor control and digital power conversion on STM32 MCUs || https://www.st.com/resource/en/application_note/an4277-how-to-use-pwm-shutdown-for-motor-control-and-digital-power-conversion-on-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Introduction to USB hardware and PCB guidelines using STM32 MCUs || https://www.st.com/resource/en/application_note/an4879-introduction-to-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Introduction to memory protection unit management on STM32 MCUs || https://www.st.com/resource/en/application_note/an4838-introduction-to-memory-protection-unit-management-on-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Introduction to random number generation validation using the NIST statistical test suite for STM32 MCUs and MPUs || https://www.st.com/resource/en/application_note/an4230-introduction-to-random-number-generation-validation-using-the-nist-statistical-test-suite-for-stm32-mcus-and-mpus-stmicroelectronics.pdf
+VM1629:1 Introduction to security for STM32 MCUs || https://www.st.com/resource/en/application_note/an5156-introduction-to-security-for-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Introduction to timers for STM32 MCUs || https://www.st.com/resource/en/application_note/an4013-introduction-to-timers-for-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Introduction to using the hardware real-time clock (RTC) and the tamper management unit (TAMP) with STM32 MCUs || https://www.st.com/resource/en/application_note/an4759-introduction-to-using-the-hardware-realtime-clock-rtc-and-the-tamper-management-unit-tamp-with-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 I2C protocol used in the STM32 bootloader || https://www.st.com/resource/en/application_note/an4221-i2c-protocol-used-in-the-stm32-bootloader-stmicroelectronics.pdf
+VM1629:1 USB DFU protocol used in the STM32 bootloader || https://www.st.com/resource/en/application_note/an3156-usb-dfu-protocol-used-in-the-stm32-bootloader-stmicroelectronics.pdf
+VM1629:1 How to use CAN protocol in bootloader on STM32 MCUs || https://www.st.com/resource/en/application_note/an3154-how-to-use-can-protocol-in-bootloader-on-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 SPI protocol used in the STM32 bootloader || https://www.st.com/resource/en/application_note/an4286-spi-protocol-used-in-the-stm32-bootloader-stmicroelectronics.pdf
+VM1629:1 How to optimize the ADC accuracy in the STM32 MCUs || https://www.st.com/resource/en/application_note/cd00211314-how-to-optimize-the-adc-accuracy-in-the-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Guidelines for enhanced SPI communication on STM32 MCUs and MPUs || https://www.st.com/resource/en/application_note/an5543-guidelines-for-enhanced-spi-communication-on-stm32-mcus-and-mpus-stmicroelectronics.pdf
+VM1629:1 How to use ADC Oversampling techniques to improve signal-to-noise ratio on STM32 MCUs || https://www.st.com/resource/en/application_note/an5537-how-to-use-adc-oversampling-techniques-to-improve-signaltonoise-ratio-on-stm32-mcus-stmicroelectronics.pdf
+VM1629:1 Introduction to USB Type-C® Power Delivery for STM32 MCUs and MPUs || https://www.st.com/resource/en/application_note/an5225-introduction-to-usb-typec-power-delivery-for-stm32-mcus-and-mpus-stmicroelectronics.pdf
+VM1629:1 High-speed SI simulations using IBIS and board-level simulations using HyperLynx® SI on STM32 MCUs and MPUs || https://www.st.com/resource/en/application_note/an4803-highspeed-si-simulations-using-ibis-and-boardlevel-simulations-using-hyperlynx-si-on-stm32-mcus-and-mpus-stmicroelectronics.pdf
+VM1629:1 EMC design guide for STM8, STM32 and legacy MCUs || https://www.st.com/resource/en/application_note/an1709-emc-design-guide-for-stm8-stm32-and-legacy-mcus-stmicroelectronics.pdf
+VM1629:1 ESD protection of STM32 MCUs and MPUs || https://www.st.com/resource/en/application_note/an5612-esd-protection-of-stm32-mcus-and-mpus-stmicroelectronics.pdf
+VM1629:1 STM32 microcontroller GPIO hardware settings and low-power consumption || https://www.st.com/resource/en/application_note/an4899-stm32-microcontroller-gpio-hardware-settings-and-lowpower-consumption-stmicroelectronics.pdf
+VM1629:1 The Goertzel algorithm to compute individual terms of the discrete Fourier transform (DFT) in STM32 products || https://www.st.com/resource/en/application_note/an5647-the-goertzel-algorithm-to-compute-individual-terms-of-the-discrete-fourier-transform-dft-in-stm32-products-stmicroelectronics.pdf
+VM1629:1 Audio and waveform generation using the DAC in STM32 products || https://www.st.com/resource/en/application_note/an3126-audio-and-waveform-generation-using-the-dac-in-stm32-products-stmicroelectronics.pdf
+VM1629:1 Interfacing PDM digital microphones using STM32 MCUs and MPUs || https://www.st.com/resource/en/application_note/an5027-interfacing-pdm-digital-microphones-using-stm32-mcus-and-mpus-stmicroelectronics.pdf
+VM1629:1 General-purpose timer cookbook for STM32 microcontrollers || https://www.st.com/resource/en/application_note/an4776-generalpurpose-timer-cookbook-for-stm32-microcontrollers-stmicroelectronics.pdf
+VM1629:1 Getting started with STM32F4xxxx MCU hardware development || https://www.st.com/resource/en/application_note/an4488-getting-started-with-stm32f4xxxx-mcu-hardware-development-stmicroelectronics.pdf
+VM1629:1 Migrating from STM32F405/415 line and STM32F407/417 line to STM32L4 Series and STM32L4+ Series microcontrollers || https://www.st.com/resource/en/application_note/an4821-migrating-from-stm32f405415-line-and-stm32f407417-line-to-stm32l4-series-and-stm32l4-series-microcontrollers-stmicroelectronics.pdf
+VM1629:1 Receiving S/PDIF audio stream with the STM32F4/F7/H7 Series || https://www.st.com/resource/en/application_note/an5073-receiving-spdif-audio-stream-with-the-stm32f4f7h7-series-stmicroelectronics.pdf
+VM1629:1 STM32Cube firmware examples for STM32F4 Series || https://www.st.com/resource/en/application_note/an4739-stm32cube-firmware-examples-for-stm32f4-series-stmicroelectronics.pdf
+VM1629:1 Using an electromyogram technique to detect muscle activity || https://www.st.com/resource/en/application_note/an4995-using-an-electromyogram-technique-to-detect-muscle-activity-stmicroelectronics.pdf
+VM1629:1 STM32 MCUs spread-spectrum clock generation principles, properties and implementation || https://www.st.com/resource/en/application_note/an4850-stm32-mcus-spreadspectrum-clock-generation-principles-properties-and-implementation-stmicroelectronics.pdf
+VM1629:1 Using the STM32F2, STM32F4 and STM32F7 Series DMA controller || https://www.st.com/resource/en/application_note/an4031-using-the-stm32f2-stm32f4-and-stm32f7-series-dma-controller-stmicroelectronics.pdf
+VM1629:1 Handling of soft errors in STM32 applications || https://www.st.com/resource/en/application_note/an4750-handling-of-soft-errors-in-stm32-applications-stmicroelectronics.pdf
+VM1629:1 Peripherals interconnections on STM32F405/7xx, STM32F415/7xx, STM32F42xxx, STM32F43xxx, STM32F446xx and STM32F469/479xx || https://www.st.com/resource/en/application_note/an4640-peripherals-interconnections-on-stm32f4057xx-stm32f4157xx-stm32f42xxx-stm32f43xxx-stm32f446xx-and-stm32f469479xx-stmicroelectronics.pdf
+VM1629:1 Virtually increasing the number of serial communication peripherals in STM32 applications || https://www.st.com/resource/en/application_note/an4655-virtually-increasing-the-number-of-serial-communication-peripherals-in-stm32-applications-stmicroelectronics.pdf
+VM1629:1 How to improve ADC accuracy when using STM32F2xx and STM32F4xx microcontrollers || https://www.st.com/resource/en/application_note/an4073-how-to-improve-adc-accuracy-when-using-stm32f2xx-and-stm32f4xx-microcontrollers-stmicroelectronics.pdf
+VM1629:1 Two or three shunt resistor based current sensing circuit design in 3-phase inverters || https://www.st.com/resource/en/application_note/an4076-two-or-three-shunt-resistor-based-current-sensing-circuit-design-in-3phase-inverters-stmicroelectronics.pdf
+VM1629:1 Using the hardware real-time clock (RTC) in STM32 F0, F2, F3, F4 and L1 series of MCUs || https://www.st.com/resource/en/application_note/an3371-using-the-hardware-realtime-clock-rtc-in-stm32-f0-f2-f3-f4-and-l1-series-of-mcus-stmicroelectronics.pdf
+VM1629:1 Migration and compatibility guidelines for STM32 microcontroller applications || https://www.st.com/resource/en/application_note/an3364-migration-and-compatibility-guidelines-for-stm32-microcontroller-applications-stmicroelectronics.pdf
+VM1629:1 Audio playback and recording using the STM32F4DISCOVERY || https://www.st.com/resource/en/application_note/an3997-audio-playback-and-recording-using-the-stm32f4discovery-stmicroelectronics.pdf
+VM1629:1 PDM audio software decoding on STM32 microcontrollers || https://www.st.com/resource/en/application_note/an3998-pdm-audio-software-decoding-on-stm32-microcontrollers-stmicroelectronics.pdf
+VM1629:1 Managing the Driver Enable signal for RS-485 and IO-Link communications with the STM32™’s USART || https://www.st.com/resource/en/application_note/an3070-managing-the-driver-enable-signal-for-rs485-and-iolink-communications-with-the-stm32s-usart-stmicroelectronics.pdf
+VM1629:1 STM8S and STM32™ MCUs: a consistent 8/32-bit product line for painless migration || https://www.st.com/resource/en/application_note/an2945-stm8s-and-stm32-mcus-a-consistent-832bit-product-line-for-painless-migration-stmicroelectronics.pdf
+VM1629:1 Tape and reel shipping media for STM32 devices in BGA packages || https://www.st.com/resource/en/technical_note/tn1204-tape-and-reel-shipping-media-for-stm32-devices-in-bga-packages-stmicroelectronics.pdf
+VM1629:1 Reference device marking schematics for STM32 microcontrollers and microprocessors || https://www.st.com/resource/en/technical_note/tn1433-reference-device-marking-schematics-for-stm32-microcontrollers-and-microprocessors-stmicroelectronics.pdf
+VM1629:1 Tape and reel shipping media for STM8 and STM32 microcontrollers in FPN packages || https://www.st.com/resource/en/technical_note/tn1205-tape-and-reel-shipping-media-for-stm8-and-stm32-microcontrollers-in-fpn-packages-stmicroelectronics.pdf
+VM1629:1 Description of WLCSP for microcontrollers and recommendations for its use || https://www.st.com/resource/en/technical_note/tn1163-description-of-wlcsp-for-microcontrollers-and-recommendations-for-its-use-stmicroelectronics.pdf
+VM1629:1 Tape and reel shipping media for STM8 and STM32 microcontrollers in QFP packages || https://www.st.com/resource/en/technical_note/tn1206-tape-and-reel-shipping-media-for-stm8-and-stm32-microcontrollers-in-qfp-packages-stmicroelectronics.pdf
+VM1629:1 Tape and reel shipping media for STM8 and STM32 microcontrollers in SO packages || https://www.st.com/resource/en/technical_note/tn1207-tape-and-reel-shipping-media-for-stm8-and-stm32-microcontrollers-in-so-packages-stmicroelectronics.pdf
+VM1629:1 Tape and reel shipping media for STM8 and STM32 microcontrollers in TSSOP and SSOP packages || https://www.st.com/resource/en/technical_note/tn1208-tape-and-reel-shipping-media-for-stm8-and-stm32-microcontrollers-in-tssop-and-ssop-packages-stmicroelectronics.pdf
+VM1629:1 Overview of the STM32F0x/F100xx/F103xx and STM32F2xx/F30x/F4xx MCUs PMSM single/dual FOC SDK V4.0 || https://www.st.com/resource/en/technical_note/tn0516-overview-of-the-stm32f0xf100xxf103xx-and-stm32f2xxf30xf4xx-mcus-pmsm-singledual-foc-sdk-v40-stmicroelectronics.pdf
+VM1629:1 STM32F4 series UL/CSA/IEC 60730-1/60335-1 self-test library user guide || https://www.st.com/resource/en/user_manual/um3461-stm32f4-series-ulcsaiec-607301603351-selftest-library-user-guide-stmicroelectronics.pdf
+VM1629:1 STM32F405/415, STM32F407/417, STM32F427/437 and STM32F429/439 advanced Arm®-based 32-bit MCUs || https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
+VM1629:1 STM32 Cortex®-M4 MCUs and MPUs programming manual || https://www.st.com/resource/en/programming_manual/pm0214-stm32-cortexm4-mcus-and-mpus-programming-manual-stmicroelectronics.pdf
+VM1629:1 STM32F405/407xx and STM32F415/417xx device errata || https://www.st.com/resource/en/errata_sheet/es0182-stm32f405407xx-and-stm32f415417xx-device-errata-stmicroelectronics.pdf
+VM1629:1 Microcontrollers and microprocessors STM32 Family Overview || https://www.st.com/resource/en/product_presentation/microcontrollers-stm32-family-overview.pdf
+VM1629:1 STM32 Development Boards Portfolio || https://www.st.com/resource/en/product_presentation/stm32_eval-tools_portfolio.pdf
+VM1629:1 STM32 and STM8 software development tools || https://www.st.com/resource/en/product_presentation/stm32-stm8_software_development_tools.pdf
+VM1629:1 Microcontrollers Functional Safety Packages || https://www.st.com/resource/en/product_presentation/stm32_stm8_functional-safety-packages.pdf
+VM1629:1 STM32 and STM8 embedded software solutions || https://www.st.com/resource/en/product_presentation/stm32-stm8_embedded_software_solutions.pdf
+VM1629:1 STM32 Nucleo boards - Unified scalable offering || https://www.st.com/resource/en/flyer/flstm32nucleo.pdf
+VM1629:1 STM32Trust An ecosystem for embedded security || https://www.st.com/resource/en/flyer/flstm32trust.pdf
+VM1629:1 EXPANSION BOARDS FOR INTELLIGENT POWER SWITCHES || https://www.st.com/resource/en/brochure/expansion-boards-for-intelligent-power-switches.pdf
+VM1629:1 Products and solutions for PLCs and smart I/Os || https://www.st.com/resource/en/brochure/products-and-solutions-for-plcs-and-smart-i-os.pdf
+VM1629:1 STM32 CAN conformance test authentication sheet || https://www.st.com/resource/en/certification_document/stm32_authentication_can.pdf
+VM1629:1 Security bulletin TN1489-ST-PSIRT: Physical attacks on STM32 and STM32Cube firmware || https://www.st.com/resource/en/technical_note/tn1489-security-bulletin-tn1489stpsirt-physical-attacks-on-stm32-and-stm32cube-firmware-stmicroelectronics.pdf
+VM1629:1 STM32F4 System View Description || https://www.st.com/resource/en/svd/stm32f4-svd.zip
+VM1629:1 STM32F405/415 and STM32F407/417 IBIS models || https://www.st.com/resource/en/ibis_model/stm32f405-415_407-417_ibis.zip
+VM1629:1 STM32F405/415 and STM32F407/417 Boundary Scan Description Language (BSDL) files || https://www.st.com/resource/en/bsdl_model/stm32f405-415_407-417_bsdl.zip
