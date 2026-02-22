@@ -32,7 +32,8 @@ def stage_1_download(args):
                 f.write(chunk)
     
     # Repos
-    for name, url in CONFIG["repos"].items():
+    for name, repo_config in CONFIG["repos"].items():
+        url = repo_config["url"]
         path = Path(CONFIG["raw_repos_dir"]) / name
         if path.exists() and not args.force:
             print(f"✓ Repo {name} already cloned")

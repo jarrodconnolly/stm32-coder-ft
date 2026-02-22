@@ -1,30 +1,27 @@
 # stage2.py - Isolated Stage 2 for debugging PDF extraction
 import os
+import subprocess
 from pathlib import Path
-import pdfplumber  # Alternative to pymupdf4llm
 from config import CONFIG
 
 def ensure_dir(path): os.makedirs(path, exist_ok=True)
 
 def stage_2_extract(args):
-    print("=== Stage 2: Extract to Markdown (Isolated with pdfplumber) ===")
+    print("=== Stage 2: Extract to Markdown (with pdftotext) ===")
     ensure_dir(CONFIG["extracted_dir"])
     
     # PDFs → Markdown
     for pdf_file in Path(CONFIG["raw_pdfs_dir"]).glob("*.pdf"):
-        out_path = Path(CONFIG["extracted_dir"]) / f"{pdf_file.stem}.md"
+        out_path = Path(CONFIG["extracted_dir"]) / f"pdf_{pdf_file.stem}.md"
         if out_path.exists() and not args.force:
             print(f"Skipping {pdf_file.name} (already exists)")
             continue
         print(f"Extracting {pdf_file.name}...")
         try:
-            with pdfplumber.open(pdf_file) as pdf:
-                md_content = []
-                for page in pdf.pages:
-                    text = page.extract_text()
-                    if text:
-                        md_content.append(text)
-                md = "\n\n".join(md_content)
+            result = subprocess.run(['pdftotext', str(pdf_file), '-'], capture_output=True, text=True, timeout=60)
+            if result.returncode != 0:
+                raise Exception(f"pdftotext failed: {result.stderr}")
+            md = result.stdout
             out_path.write_text(md, encoding="utf-8")
             print(f"✓ Extracted {len(md)} chars")
         except Exception as e:
@@ -37,7 +34,7 @@ def stage_2_extract(args):
         repo_name = repo_dir.name
         repo_config = CONFIG["repos"].get(repo_name, {})
         include_folders = repo_config.get("include_folders")
-        out_path = Path(CONFIG["extracted_dir"]) / f"{repo_dir.name}_code.md"
+        out_path = Path(CONFIG["extracted_dir"]) / f"code_{repo_dir.name}.md"
         if out_path.exists() and not args.force:
             continue
         print(f"Extracting code from {repo_dir.name}...")
